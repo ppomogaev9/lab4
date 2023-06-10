@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.FabricGUI">
+  <grid id="cbd77" binding="MainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="48" y="54" width="2072" height="731"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="line">
+      <color color="-16777216"/>
+    </border>
+    <children>
+      <grid id="d2408" binding="right" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="900" height="700"/>
+            <preferred-size width="900" height="700"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <grid id="91dd9" binding="settingsPanel" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card2"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5061b" class="javax.swing.JSlider" binding="bodySlider">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="600" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-3723232"/>
+                  <inverted value="false"/>
+                  <majorTickSpacing value="5"/>
+                  <maximum value="95"/>
+                  <minimum value="5"/>
+                  <minorTickSpacing value="1"/>
+                  <paintLabels value="true"/>
+                  <paintTicks value="true"/>
+                  <paintTrack value="true"/>
+                  <snapToTicks value="false"/>
+                  <toolTipText value=""/>
+                  <value value="50"/>
+                  <valueIsAdjusting value="true"/>
+                </properties>
+              </component>
+              <component id="f7d2a" class="javax.swing.JSlider" binding="accessorySlider">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="600" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-3723232"/>
+                  <inverted value="false"/>
+                  <majorTickSpacing value="5"/>
+                  <maximum value="95"/>
+                  <minimum value="5"/>
+                  <minorTickSpacing value="1"/>
+                  <paintLabels value="true"/>
+                  <paintTicks value="true"/>
+                  <paintTrack value="true"/>
+                  <snapToTicks value="false"/>
+                  <toolTipText value=""/>
+                  <value value="50"/>
+                  <valueIsAdjusting value="true"/>
+                </properties>
+              </component>
+              <component id="4bf67" class="javax.swing.JTextArea" binding="accessoryMakingDelaySlider">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="24" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Accessory suppling delay"/>
+                </properties>
+              </component>
+              <component id="26718" class="javax.swing.JTextArea" binding="bodyMakingDelaySlider">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="24" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Body building delay"/>
+                </properties>
+              </component>
+              <vspacer id="f1727">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="2" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="a3557" class="javax.swing.JTextArea" binding="buyingDelaySelling">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="24" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Dealers selling delay"/>
+                </properties>
+              </component>
+              <component id="66d86" class="javax.swing.JSlider" binding="buyingSlider">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="600" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-3723232"/>
+                  <inverted value="false"/>
+                  <majorTickSpacing value="5"/>
+                  <maximum value="95"/>
+                  <minimum value="5"/>
+                  <minorTickSpacing value="1"/>
+                  <paintLabels value="true"/>
+                  <paintTicks value="true"/>
+                  <paintTrack value="true"/>
+                  <snapToTicks value="false"/>
+                  <toolTipText value=""/>
+                  <value value="50"/>
+                  <valueIsAdjusting value="true"/>
+                </properties>
+              </component>
+              <component id="1aa2" class="javax.swing.JSlider" binding="motorSlider">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="600" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-3723232"/>
+                  <inverted value="false"/>
+                  <majorTickSpacing value="5"/>
+                  <maximum value="95"/>
+                  <minimum value="5"/>
+                  <minorTickSpacing value="1"/>
+                  <paintLabels value="true"/>
+                  <paintTicks value="true"/>
+                  <paintTrack value="true"/>
+                  <snapToTicks value="false"/>
+                  <toolTipText value=""/>
+                  <value value="50"/>
+                  <valueIsAdjusting value="true"/>
+                </properties>
+              </component>
+              <component id="e3376" class="javax.swing.JTextArea" binding="motorsMakingDelaySlider">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="24" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Motor suppling delay"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f70c2" binding="infoPanel" layout-manager="GridLayoutManager" row-count="13" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card3"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="510b2" class="javax.swing.JTextArea" binding="madeCarsText">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Cars made"/>
+                </properties>
+              </component>
+              <component id="b1bbf" class="javax.swing.JTextArea" binding="madeCarsNum">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="4bca3" class="javax.swing.JTextArea" binding="carsDynamic">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="+0"/>
+                </properties>
+              </component>
+              <component id="8d92a" class="javax.swing.JTextArea" binding="statHeader">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Statistic"/>
+                </properties>
+              </component>
+              <component id="3da11" class="javax.swing.JTextArea" binding="valueHeader">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Value"/>
+                </properties>
+              </component>
+              <component id="7b678" class="javax.swing.JTextArea" binding="dynamicHeader">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Dynamic"/>
+                </properties>
+              </component>
+              <hspacer id="ea7c5">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="fd0c8">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="839d7" class="javax.swing.JTextArea" binding="waitingTasksText">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Tasks wait"/>
+                </properties>
+              </component>
+              <component id="4af89" class="javax.swing.JTextArea" binding="waitingTasksNum">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="5490d" class="javax.swing.JTextArea" binding="dynamicTasksWaiting">
+                <constraints>
+                  <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="+0"/>
+                </properties>
+              </component>
+              <component id="64588" class="javax.swing.JTextArea" binding="storedMotorsText">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Motor stored"/>
+                </properties>
+              </component>
+              <component id="9e430" class="javax.swing.JTextArea" binding="storedMotorsNum">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="502e0" class="javax.swing.JTextArea" binding="motorsStoredDynamic">
+                <constraints>
+                  <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="+0"/>
+                </properties>
+              </component>
+              <component id="ea72c" class="javax.swing.JTextArea" binding="storedBodiesText">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <lineWrap value="false"/>
+                  <text value="Bodies stored"/>
+                </properties>
+              </component>
+              <component id="3f758" class="javax.swing.JTextArea" binding="storedBodiesNum">
+                <constraints>
+                  <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="685d" class="javax.swing.JTextArea" binding="bodyStoredDynamic">
+                <constraints>
+                  <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="+0"/>
+                </properties>
+              </component>
+              <component id="4cebf" class="javax.swing.JTextArea" binding="storedAccsText">
+                <constraints>
+                  <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Accessory stored"/>
+                </properties>
+              </component>
+              <component id="508a5" class="javax.swing.JTextArea" binding="storedAccsNum">
+                <constraints>
+                  <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="fcbde" class="javax.swing.JTextArea" binding="accsStoredDynamic">
+                <constraints>
+                  <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="+0"/>
+                </properties>
+              </component>
+              <vspacer id="c4e3f">
+                <constraints>
+                  <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="b072f">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="6e431">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="5e611">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="dc715">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="5ecf">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="b0660">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <component id="e177a" class="javax.swing.JLabel" binding="picLabel">
+            <constraints>
+              <card name="Card4"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5571e" binding="left" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="303" height="700"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16737390"/>
+          <font name="Consolas" size="21" style="1"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="line">
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <vspacer id="b1ccd">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <grid id="9f213" binding="menu" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="300"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16492714"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="836fb" class="javax.swing.JButton" binding="settingsButton">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Settings"/>
+                </properties>
+              </component>
+              <component id="390a0" class="javax.swing.JButton" binding="exitButton">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Exit"/>
+                </properties>
+              </component>
+              <vspacer id="3cb26">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="60"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <vspacer id="3ede">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="daad7">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="d22d0" class="javax.swing.JButton" binding="startButton">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Start"/>
+                </properties>
+              </component>
+              <component id="4a421" class="javax.swing.JButton" binding="infoButton">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="130" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                  <foreground color="-3723232"/>
+                  <text value="Info"/>
+                </properties>
+              </component>
+              <component id="624b3" class="javax.swing.JTextArea" binding="MENUTextArea" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="1" use-parent-layout="false">
+                    <preferred-size width="102" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16492714"/>
+                  <editable value="false"/>
+                  <font name="Yu Gothic UI Semibold" size="33" style="1"/>
+                  <foreground color="-2833252"/>
+                  <text value="MENU"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="58da6">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="e4fff">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="d38a1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,8 @@
+BodyStorageSize=100
+MotorStorageSize=100
+AccessoryStorageSize=100
+AutoStorageSize=100
+Suppliers=5
+Workers=10
+Dealers=20
+LogSale=true
